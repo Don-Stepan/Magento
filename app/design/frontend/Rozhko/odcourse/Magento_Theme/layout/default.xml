@@ -9,9 +9,9 @@
     <body>
         <referenceBlock name="logo">
             <arguments>
-            	<!-- <argument name="logo_file" xsi:type="string">
-            		Magento_Theme/images/logo.png
-            	</argument>	 -->
+            	<argument name="logo_file" xsi:type="string">
+            		Magento_Theme/images/od-logo.png
+            	</argument>	
                 <argument name="logo_img_width" xsi:type="number">
                 	200
                 </argument>	

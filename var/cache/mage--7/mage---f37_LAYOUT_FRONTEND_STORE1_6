@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1613572943;s:6:"expire";i:9999999999;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1613581297;s:6:"expire";i:9999999999;s:4:"tags";s:37:"f37_LAYOUT_GENERAL_CACHE_TAG,f37_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7306,6 +7306,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1613572943;s:6:"expire";i:9999999999;s:4:"t
 </handle><handle id="default"><body>
    <referenceBlock name="logo">
       <arguments>
+         <argument name="logo_file" xsi:type="string">
+            		Magento_Theme/images/od-logo.png
+            	</argument>
          <argument name="logo_img_width" xsi:type="number">
                 	200
                 </argument>
@@ -7315,6 +7318,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1613572943;s:6:"expire";i:9999999999;s:4:"t
       </arguments>
    </referenceBlock>
 </body>
+</handle><handle id="default_head_blocks"><head>
+   <link src="Magento_Theme/web::favicon.ico" rel="icon" sizes="32x32"/>
+</head>
 </handle><layout id="1column"><update handle="empty"/>
 <referenceContainer name="page.wrapper">
    <container name="header.container" as="header_container" label="Page Header Container" htmlTag="header" htmlClass="page-header" before="main.content"/>
